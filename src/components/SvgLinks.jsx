@@ -1,4 +1,4 @@
-import gh from 'src/assets/gh.svg';
+
 
 export default function SvgLinks(props) {
 
@@ -6,7 +6,10 @@ export default function SvgLinks(props) {
 
         <>
             <div>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+                <a target="_blank" href="https://www.github.com/knangcas"><img width="24" height="24"
+                                                                               src='src/assets/ghbw.svg' alt="github"/></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kevin-nangcas/"><img width="24" height="24"
+                                                                               src='src/assets/li.svg' alt="github"/></a>
             </div>
         </>
     )
