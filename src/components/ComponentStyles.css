@@ -1,0 +1,52 @@
+#titleContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilePicture {
+    align-self: flex-start;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    height: 35%;
+    width: 35%;
+}
+
+.titleText {
+    padding-left: 5%;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+}
+
+.titleTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+}
+
+.subTitle {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subTextI {
+    font-family: "Victor Mono", monospace;
+    font-size:0.8em;
+    font-weight:100;
+    font-style: normal;
+}
+#headerTitle {
+    flex: 12;
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
