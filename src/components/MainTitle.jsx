@@ -28,48 +28,131 @@ export default function MainTitle() {
                                 <li>C#</li>
                                 <li>CSS</li>
                                 <li>Docker</li>
-                                <li>HTML</li>
+                                <li>HTML*</li>
                                 <li>Git/Github</li>
-                                <li>Java</li>
-                                <li>JavaFX</li>
+                                <li>Java*</li>
+                                <li>JavaFX*</li>
+                                <li>Java SpringBoot</li>
 
                             </div>
                             <div className="bodyContainerItem">
 
-                                <li>Java SpringBoot</li>
-                                <li>Javascript</li>
-                                <li>MongoDB</li>
-                                <li>MySQL</li>
+
+                                <li>Javascript*</li>
+                                <li>MongoDB*</li>
+                                <li>MySQL*</li>
                                 <li>Python (Pandas)</li>
+                                <li>R</li>
                                 <li>React</li>
                                 <li>ReactNative</li>
+                                <li>Visual Basic</li>
                                 <li>VueJS</li>
                             </div>
                         </div>
 
+                        <p style={{fontSize: "0.9em", textAlign:"right"}}>*indicates high proficiency</p>
 
                     </div>
                 </div>
-                <div className="bodyContainerItem">
-                    <h1 className="titleText2">P R O J E C T S</h1>
-                    <div className="subTextI">
-                        <p className="subSubText">PSYCHE SCRAPER</p>
-                        <p className="subSubTextI">
-                            Psyche Scraper is a university capstone project that spanned two semesters (Fall 2024-Spring 2025)
-                            sponsored by <a target="_blank" href="https://psyche.asu.edu/get-involved/capstone-projects/">NASA PSYCHE</a>.
-                            The goal of this project was to create a Virtual Reality experience which would be demonstrated at NASA PSYCHE events in order to
-                            increase awareness of the <a target="_blank" href="https://psyche.asu.edu/">mission to Psyche</a>
-                        </p>
+            <div className="bodyContainerItem">
+                <h1 className="titleText2">P R O J E C T S</h1>
+                <div className="subTextI">
+                    <p className="subSubText">PSYCHE SCRAPER</p>
+                    <p className="subSubTextI">
+                        &nbsp;&nbsp;&nbsp;&nbsp; Psyche Scraper is a university capstone project that spanned two
+                        semesters (Fall 2024-Spring
+                        2025)
+                        sponsored by <a target="_blank"
+                                        href="https://psyche.asu.edu/get-involved/capstone-projects/">NASA
+                        PSYCHE</a>.
+                        The goal of this project was to create a Virtual Reality experience which would be
+                        demonstrated at NASA PSYCHE events in order to
+                        increase awareness of the <a target="_blank" href="https://psyche.asu.edu/">mission to
+                        Psyche</a>. My team and I utilized the
+                        <strong> AGILE SCRUM </strong> Software Development Lifecycle, developing the software
+                        in <strong>UNITY</strong> over several iterations. This
+                        project also involved composing high quality documents such as a project plan, quality plan,
+                        and testing plan.
+                        <br/>
+                        <br/>
+                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                    </p>
+
+                    <br/>
+                </div>
+                <div className="subTextI">
+                    <p className="subSubText">FlashCardsFX</p>
+                    <p className="subSubTextI">
+                        &nbsp;&nbsp;&nbsp;&nbsp; FlashCards is a personal project first implemented in <strong>Java
+                        using JavaFX</strong> making
+                        use of a <strong>MySQL database</strong> and linking to Java
+                        with a JDBC Driver. It also includes an "offline" mode which makes use of a JSON file to save
+                        data locally.
+
+                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                    </p>
 
 
+                </div>
+                <div className="subTextI">
+                    <p className="subSubText">FlashCards SPA</p>
+                    <p className="subSubTextI">
+                        &nbsp;&nbsp;&nbsp;&nbsp; FlashCards SPA is a web-app version of FlashCardsFX
+                        It was implemented as a web-application using <strong>javascript/html/css</strong> before
+                        being re-implemented
+                        as a single page application using <strong>React</strong>.
+                        This web-app utilizes a <strong>RESTful API</strong> using <strong>Java
+                        Springboot</strong> for the back-end technology.
+                        <br/>
 
 
+                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                    </p>
 
-                    </div>
+
                 </div>
 
+                <div className="subTextI">
+                    <p className="subSubText">FlashCards ReactNative</p>
+                    <p className="subSubTextI">
+                        &nbsp;&nbsp;&nbsp;&nbsp; FlashCards ReactNative is a mobile-app version of FlashCardsFX.
+                        Implemented using <strong>ReactNative using Expo</strong>, the aim of this project was to learn
+                        about mobile-app
+                        development. This app also uses the same <strong>RESTful API</strong> from FlashCards SPA.
+                        This project is still currently in progress.
 
 
+                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                    </p>
+
+
+                </div>
+
+                <div className="subTextI">
+                    <p className="subSubText">ConnectFourFX</p>
+                    <p className="subSubTextI">
+                        &nbsp;&nbsp;&nbsp;&nbsp; ConnectFourFX is a implementation of the popular game "ConnectFour" in
+                        <strong>Java using JavaFX</strong> Utilizing the scene builder tool in JavaFX, a recreation of
+                        the board from Connect Four was created.
+
+
+                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                    </p>
+                </div>
+
+                <div className="subTextI">
+                    <p className="subSubText">JeopardyVue</p>
+                    <p className="subSubTextI">
+                        &nbsp;&nbsp;&nbsp;&nbsp; JeopardyVue was a class project from the class "web-based applications" taken at
+                        Arizona State University. In this project, a recreation of the Jeopardy game was created using the options API of the
+                        <strong>VueJS framework</strong>. This involved making api calls using the fetch API to a trivia database for the questions/answers,
+                        as well as making a dynamic application that allowed for a variable amount of players and categories.
+
+
+                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                    </p>
+                </div>
+            </div>
 
 
         </>
