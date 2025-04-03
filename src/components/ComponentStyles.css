@@ -58,9 +58,29 @@
     margin: 0.2em auto;
 }
 
+.screenshotContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.screenshot{
+    height: 35%;
+    width: 35%;
+
+}
+
+
 .subSubText {
     font-family: "Victor Mono", monospace;
     font-size:1.3em;
+    font-weight:400;
+    font-style: normal;
+    margin: 0.2em auto;
+}
+
+.subSubTextText {
+    font-family: "Victor Mono", monospace;
+    font-size:0.9em;
     font-weight:400;
     font-style: normal;
     margin: 0.2em auto;
