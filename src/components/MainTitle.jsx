@@ -73,6 +73,10 @@ export default function MainTitle() {
                         in <strong>UNITY</strong> over several iterations. This
                         project also involved composing high quality documents such as a project plan, quality plan,
                         and testing plan.
+
+                        PSYCHE SCRAPER involves playing as an astronaut in virtual reality. The astronaut has landed on the Psyche Asteroid and must
+                        collect metals on the asteroid to bring back to earth for study. The more metals collected, the more points are earned.
+                        Player must collect as many metals as they can under a time limit.
                         <br/>
                         <br/>
                         maybe 1 or 2 screenshots, then link to the repo? (it's private though).
@@ -87,7 +91,8 @@ export default function MainTitle() {
                         using JavaFX</strong> making
                         use of a <strong>MySQL database</strong> and linking to Java
                         with a JDBC Driver. It also includes an "offline" mode which makes use of a JSON file to save
-                        data locally.
+                        data locally. The project is a application that is used to create "decks" of flashcards, which include a front and a back.
+                        The user can select a deck, then go through each card in the deck and study them. The user can "flip" the card to view the answer to a question.
 
                         maybe 1 or 2 screenshots, then link to the repo? (it's private though).
                     </p>
