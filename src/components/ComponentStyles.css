@@ -9,8 +9,8 @@
     align-self: flex-start;
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
-    height: 30%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
 }
 
 .titleText {
@@ -23,10 +23,20 @@
     font-size:4em;
 }
 
+.titleText2 {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    font-size:3em;
+}
+
 .titleTextContainer {
     display: flex;
     flex-direction: column;
     width: 30em;
+    flex-shrink:2
 }
 
 .subTitle {
@@ -45,6 +55,14 @@
     font-style: normal;
     margin: 0.2em auto;
 }
+
+.subSubText {
+    font-family: "Victor Mono", monospace;
+    font-size:1.3em;
+    font-weight:400;
+    font-style: normal;
+    margin: 0.2em auto;
+}
 .headerTitle {
     flex: 5;
 
@@ -52,6 +70,19 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.bodyContainerItem{
+    flex:1;
+    text-align: left;
+    padding:1.8em;
 }
 
 
