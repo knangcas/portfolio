@@ -94,6 +94,9 @@ export default function MainTitle() {
                 </div>
                 <div className="subTextI">
                     <p className="subSubText">FlashCardsFX</p>
+                    <p className="subSubTextText"><a target="_blank"
+                                                     href="https://github.com/knangcas/FlashCards">GitHub</a>
+                    </p>
                     <p className="subSubTextText">Java, JavaFX, MySQL</p>
                     <p className="subSubTextI">
                         &nbsp;&nbsp;&nbsp;&nbsp; FlashCards is a personal project first implemented in <strong>Java
@@ -105,7 +108,11 @@ export default function MainTitle() {
                         The user can select a deck, then go through each card in the deck and study them. The user can
                         "flip" the card to view the answer to a question.
 
-                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                        <div className="screenshotContainer">
+                            <img className="screenshot" src="src/assets/fcs3.png"/>
+                            <img className="screenshot" src="src/assets/fcs1.png"/>
+                            <img className="screenshot" src="src/assets/fcs2.png"/>
+                        </div>
                     </p>
 
 
@@ -124,8 +131,8 @@ export default function MainTitle() {
                         <br/>
                         <br/>
                         <div className="screenshotContainer">
-                        <img className="screenshot" src="src/assets/SBFC1.png"/>
-                        <img className="screenshot" src="src/assets/SBFC2.png"/>
+                        <img className="screenshot" src="src/assets/spas1.png"/>
+                        <img className="screenshot" src="src/assets/spas2.png"/>
                         </div>
                     </span>
                     <br/>
@@ -146,7 +153,9 @@ export default function MainTitle() {
                         This project is still currently in progress.
 
 
-                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                        <div className="screenshotContainer">
+                            <img className="screenshot" src="src/assets/fcrn1.png"/>
+                        </div>
                     </p>
 
 
@@ -163,8 +172,12 @@ export default function MainTitle() {
                         <strong> Java using JavaFX</strong> Utilizing the scene builder tool in JavaFX, a recreation of
                         the board from Connect Four was created.
 
-
-                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                        <br/>
+                        <br/>
+                        <div className="screenshotContainer">
+                            <img className="screenshot" src="src/assets/c4s2.png"/>
+                            <img className="screenshot" src="src/assets/c4s3.png"/>
+                        </div>
                     </p>
                 </div>
 
@@ -179,13 +192,16 @@ export default function MainTitle() {
                         taken at
                         Arizona State University. In this project, a recreation of the Jeopardy game was created using
                         the options API of the
-                        <strong>VueJS framework</strong>. This involved making api calls using the fetch API to a trivia
+                        <strong> VueJS framework</strong>. This involved making api calls using the fetch API to a trivia
                         database for the questions/answers,
                         as well as making a dynamic application that allowed for a variable amount of players and
                         categories.
 
 
-                        maybe 1 or 2 screenshots, then link to the repo? (it's private though).
+                        <div className="screenshotContainer">
+                            <img className="screenshot" src="src/assets/jv1.png"/>
+                            <img className="screenshot" src="src/assets/jv2.png"/>
+                        </div>
                     </p>
                 </div>
             </div>
