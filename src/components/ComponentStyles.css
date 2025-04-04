@@ -71,6 +71,12 @@
 
 }
 
+.projectBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .subSubText {
     font-family: "Victor Mono", monospace;

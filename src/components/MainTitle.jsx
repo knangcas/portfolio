@@ -84,10 +84,10 @@ export default function MainTitle() {
                         Player must collect as many metals as they can under a time limit.
                         <br/>
                         <br/>
-                        <div className="screenshotContainer">
+                        {/*<div className="screenshotContainer">
                             <img className="screenshot" src="src/assets/PS3.png"/>
                             <img className="screenshot" src="src/assets/PS2.png"/>
-                        </div>
+                        </div>*/}
                     </span>
 
                     <br/>
@@ -108,11 +108,11 @@ export default function MainTitle() {
                         The user can select a deck, then go through each card in the deck and study them. The user can
                         "flip" the card to view the answer to a question.
 
-                        <div className="screenshotContainer">
+                        {/*<div className="screenshotContainer">
                             <img className="screenshot" src="src/assets/fcs3.png"/>
                             <img className="screenshot" src="src/assets/fcs1.png"/>
                             <img className="screenshot" src="src/assets/fcs2.png"/>
-                        </div>
+                        </div>*/}
                     </p>
 
 
@@ -130,10 +130,10 @@ export default function MainTitle() {
                         Springboot</strong> for the back-end technology.
                         <br/>
                         <br/>
-                        <div className="screenshotContainer">
+                       {/* <div className="screenshotContainer">
                         <img className="screenshot" src="src/assets/spas1.png"/>
                         <img className="screenshot" src="src/assets/spas2.png"/>
-                        </div>
+                        </div>*/}
                     </span>
                     <br/>
 
@@ -153,9 +153,9 @@ export default function MainTitle() {
                         This project is still currently in progress.
 
 
-                        <div className="screenshotContainer">
+                        {/*<div className="screenshotContainer">
                             <img className="screenshot" src="src/assets/fcrn1.png"/>
-                        </div>
+                        </div>*/}
                     </p>
 
 
@@ -174,10 +174,10 @@ export default function MainTitle() {
 
                         <br/>
                         <br/>
-                        <div className="screenshotContainer">
+                        {/*<div className="screenshotContainer">
                             <img className="screenshot" src="src/assets/c4s2.png"/>
                             <img className="screenshot" src="src/assets/c4s3.png"/>
-                        </div>
+                        </div>*/}
                     </p>
                 </div>
 
@@ -187,22 +187,26 @@ export default function MainTitle() {
                                                      href="https://github.com/knangcas/JeopardyVue">GitHub</a>
                     </p>
                     <p className="subSubTextText">HTML - CSS - Javascript - VueJS</p>
-                    <p className="subSubTextI">
-                        &nbsp;&nbsp;&nbsp;&nbsp; JeopardyVue was a class project from the class "web-based applications"
-                        taken at
-                        Arizona State University. In this project, a recreation of the Jeopardy game was created using
-                        the options API of the
-                        <strong> VueJS framework</strong>. This involved making api calls using the fetch API to a trivia
-                        database for the questions/answers,
-                        as well as making a dynamic application that allowed for a variable amount of players and
-                        categories.
+                    <div className="projectBody">
+                        <p className="subSubTextI">
+                            &nbsp;&nbsp;&nbsp;&nbsp; JeopardyVue was a class project from the class "web-based
+                            applications"
+                            taken at
+                            Arizona State University. In this project, a recreation of the Jeopardy game was created
+                            using
+                            the options API of the
+                            <strong> VueJS framework</strong>. This involved making api calls using the fetch API to an external
+                            trivia
+                            database for the questions/answers,
+                            as well as making a dynamic application that allowed for a variable amount of players and
+                            categories.
 
 
-                        <div className="screenshotContainer">
-                            <img className="screenshot" src="src/assets/jv1.png"/>
-                            <img className="screenshot" src="src/assets/jv2.png"/>
-                        </div>
-                    </p>
+                        </p>
+
+                            {/*<img style={{marginLeft: "3px", width:"30%", height:"30%"}} src="src/assets/jv1.png"/>*/}
+
+                    </div>
                 </div>
             </div>
 
